@@ -7,7 +7,7 @@
 
 
 To register as participants for the 2026 workshop, please fill out this Google Form:
-[2026 Registration](https://docs.google.com/forms/d/e/1FAIpQLSeqm_t-k2aLCpqKRxCILg25kab81r01d_4vABoW8Dv23JZS8g/viewform?usp=dialog](https://docs.google.com/forms/d/1XSc-FBiN2DpYVBHlwaCrkXZ8P0fkKa_aO9RgnerAhoY/edit)](https://docs.google.com/forms/d/e/1FAIpQLSfStvhLI9ebqSeut9UA2bFMlgpegjjJhg3TR0DgUVemanweRg/viewform?usp=header))
+[2026 Registration](https://docs.google.com/forms/d/e/1FAIpQLSfStvhLI9ebqSeut9UA2bFMlgpegjjJhg3TR0DgUVemanweRg/viewform?usp=header)
 
 
 Recordings for last year's course are available on YouTube: [2025 Playlist](https://www.youtube.com/playlist?list=PLCNcoalRndQwPEBnCGDAJInM9n2X8t3jT)
