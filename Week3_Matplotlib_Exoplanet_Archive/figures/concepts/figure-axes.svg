@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="450" viewBox="0 0 760 450" role="img" aria-labelledby="title desc">
+  <title id="title">One Matplotlib Figure containing two Axes</title>
+  <desc id="desc">A dashed outer Figure canvas contains two plotting regions, one line plot and one scatter plot, each labeled Axes.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#107895"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#131516" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="26" y="44" width="708" height="378" rx="18" fill="#f7fafb" stroke="#107895" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="48" y="22" width="260" height="46" rx="23" fill="#107895"/>
+  <text x="178" y="53" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" font-weight="700" fill="white">Figure = entire canvas</text>
+
+  <g filter="url(#shadow)">
+    <rect x="82" y="115" width="280" height="240" rx="8" fill="white" stroke="#c9d4d8" stroke-width="2"/>
+    <rect x="435" y="115" width="240" height="240" rx="8" fill="white" stroke="#c9d4d8" stroke-width="2"/>
+  </g>
+
+  <g stroke="#c9d4d8" stroke-width="1.5">
+    <path d="M122 155 H330 M122 205 H330 M122 255 H330 M122 305 H330"/>
+    <path d="M475 155 H643 M475 205 H643 M475 255 H643 M475 305 H643"/>
+  </g>
+  <g stroke="#394b52" stroke-width="2.5" fill="none">
+    <path d="M122 145 V315 H338"/>
+    <path d="M475 145 V315 H651"/>
+  </g>
+
+  <path d="M125 282 C164 270 183 228 218 239 S275 176 333 166" fill="none" stroke="#107895" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#9a2515" stroke="white" stroke-width="3">
+    <circle cx="495" cy="266" r="8"/><circle cx="526" cy="226" r="8"/><circle cx="560" cy="251" r="8"/>
+    <circle cx="591" cy="183" r="8"/><circle cx="624" cy="208" r="8"/>
+  </g>
+
+  <rect x="150" y="332" width="184" height="44" rx="22" fill="#e5f2f5"/>
+  <text x="242" y="361" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#107895">Axes 1</text>
+  <rect x="463" y="332" width="184" height="44" rx="22" fill="#f5e9e7"/>
+  <text x="555" y="361" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#9a2515">Axes 2</text>
+
+  <path d="M380 106 C397 122 401 150 401 182" fill="none" stroke="#107895" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="400" y="82" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#131516">Each Axes has its own</text>
+  <text x="400" y="105" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#394b52">coordinate system</text>
+
+  <text x="380" y="409" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#394b52">one Figure • multiple Axes</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230" role="img" aria-labelledby="title desc">
+  <title id="title">Stateful pyplot versus explicit Axes methods</title>
+  <desc id="desc">Pyplot sends a plotting command to the current Axes, while an Axes method sends it to a named Axes.</desc>
+  <defs>
+    <marker id="blue-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#107895"/></marker>
+    <marker id="red-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#9a2515"/></marker>
+  </defs>
+
+  <rect x="8" y="10" width="544" height="96" rx="14" fill="#eef6f8"/>
+  <rect x="8" y="124" width="544" height="96" rx="14" fill="#f8efed"/>
+
+  <text x="34" y="43" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700" fill="#107895">plt.plot(...)</text>
+  <path d="M198 50 H315" stroke="#107895" stroke-width="4" marker-end="url(#blue-arrow)"/>
+  <rect x="332" y="28" width="190" height="58" rx="10" fill="white" stroke="#107895" stroke-width="2"/>
+  <text x="427" y="53" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#131516">current Axes</text>
+  <text x="427" y="75" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#52646b">stateful</text>
+
+  <text x="34" y="157" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" font-weight="700" fill="#9a2515">ax.plot(...)</text>
+  <path d="M198 164 H315" stroke="#9a2515" stroke-width="4" marker-end="url(#red-arrow)"/>
+  <rect x="332" y="142" width="190" height="58" rx="10" fill="white" stroke="#9a2515" stroke-width="2"/>
+  <text x="427" y="167" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#131516">this Axes</text>
+  <text x="427" y="189" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#52646b">explicit</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="330" viewBox="0 0 640 330" role="img" aria-labelledby="title desc">
+  <title id="title">Manual horizontal and vertical panel spacing in Matplotlib</title>
+  <desc id="desc">A two by two grid illustrates the horizontal wspace and vertical hspace controlled by subplots adjust.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse">
+      <path d="M0 0 L7 3.5 L0 7 Z" fill="#9a2515"/>
+    </marker>
+    <g id="panel">
+      <rect width="190" height="66" rx="5" fill="white" stroke="#c9d4d8" stroke-width="2"/>
+      <path d="M18 12 V53 H176" fill="none" stroke="#52646b" stroke-width="2"/>
+      <path d="M23 46 C55 42 72 20 103 28 S145 18 171 12" fill="none" stroke="#107895" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect x="10" y="10" width="620" height="310" rx="16" fill="#f8efed"/>
+  <text x="32" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700" fill="#9a2515">fig.subplots_adjust(...)</text>
+  <text x="608" y="50" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#52646b">manual</text>
+
+  <g transform="translate(52 90) scale(.84)"><use href="#panel"/></g>
+  <g transform="translate(428 90) scale(.84)"><use href="#panel"/></g>
+  <g transform="translate(52 238) scale(.84)"><use href="#panel"/></g>
+  <g transform="translate(428 238) scale(.84)"><use href="#panel"/></g>
+
+  <path d="M350 59 V86 M343 59 H357 M343 86 H357" stroke="#9a2515" stroke-width="2.5"/>
+  <text x="372" y="83" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#9a2515">top</text>
+
+  <path d="M592 210 H620 M592 203 V217 M620 203 V217" stroke="#9a2515" stroke-width="2.5"/>
+  <text x="606" y="194" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" font-weight="700" fill="#9a2515">right</text>
+
+  <path d="M224 118 H414" stroke="#9a2515" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <rect x="270" y="102" width="98" height="31" rx="15" fill="#f8efed"/>
+  <text x="319" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18" font-weight="700" fill="#9a2515">wspace</text>
+
+  <path d="M409 151 V231" stroke="#9a2515" stroke-width="2.5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <rect x="367" y="172" width="84" height="29" rx="14" fill="#f8efed"/>
+  <text x="409" y="193" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" font-weight="700" fill="#9a2515">hspace</text>
+</svg>
